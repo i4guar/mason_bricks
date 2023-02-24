@@ -1,6 +1,6 @@
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
-final {{name.pascalCase()}}StateNotifier = StateNotifierProvider<{{name.pascalCase()}}Notifier, {{name.pascalCase()}}State>(
+final {{name.camelCase()}}StateNotifier = StateNotifierProvider<{{name.pascalCase()}}Notifier, {{name.pascalCase()}}State>(
   (ref) => {{name.pascalCase()}}Notifier(ref: ref),
 );
 
