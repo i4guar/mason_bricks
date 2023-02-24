@@ -23,6 +23,5 @@ environment:
 vars:
   name:
     type: string
-    description: Your name
-    default: Dash
-    prompt: What is your name?
+    description: Name of page
+    prompt: What is the page name?
