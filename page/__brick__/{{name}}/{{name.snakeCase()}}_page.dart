@@ -10,6 +10,6 @@ class {{name.pascalCase()}}Page extends HookConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
 
-    return Text({{name.pascalCase()}});
+    return Text("{{name.pascalCase()}}");
   }
 }
